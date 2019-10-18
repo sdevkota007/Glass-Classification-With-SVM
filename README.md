@@ -9,13 +9,13 @@ ovr-balanced means OneVsRest classifier with balanced class weight \
 ovo-balanced means OneVsOne classifier with unbalanced class weight \
 ovR-balanced means OneVsRest classifier with unbalanced class weight 
 
-#Results:
+# Results:
 
-###Training Time: 
+### Training Time: 
  
 ![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/training-time.png)
 
-###Accuracy table for 5 fold cross validation:
+### Accuracy table for 5 fold cross validation:
 
 ![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy1.png) \
 ![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy2.png) \
