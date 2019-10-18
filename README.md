@@ -11,11 +11,13 @@ ovR-balanced means OneVsRest classifier with unbalanced class weight
 
 #Results:
 
-###Training Time:  
-![html dark](https://github.com/sdevkota007/KNN-And-NaiveBayes-Classifier/blob/master/screenshots/training-time.png) \
+###Training Time: 
+ 
+![html dark](https://github.com/sdevkota007/KNN-And-NaiveBayes-Classifier/blob/master/screenshots/training-time.png)
 
 ###Accuracy table for 5 fold cross validation:
-![html dark](https://github.com/sdevkota007/KNN-And-NaiveBayes-Classifier/blob/master/screenshots/accuracy1.png) \
-![html dark](https://github.com/sdevkota007/KNN-And-NaiveBayes-Classifier/blob/master/screenshots/accuracy2.png) \
-![html dark](https://github.com/sdevkota007/KNN-And-NaiveBayes-Classifier/blob/master/screenshots/accuracy3.png) \
-![html dark](https://github.com/sdevkota007/KNN-And-NaiveBayes-Classifier/blob/master/screenshots/accuracy4.png) \
+
+![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy1.png) \
+![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy2.png) \
+![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy3.png) \
+![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy4.png)
