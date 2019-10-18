@@ -1,0 +1,692 @@
+/home/ninja/.virtualenvs/ml/bin/python3.6 /home/ninja/PycharmProjects/MachineLearning/Assignment2/svm.py
+Loading Dataset...
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: rbf
+          	class_weight: unbalanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6989996346613994
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.008358955383300781
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.716032526032526
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.012516975402832031
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.7030861218361218
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.018156051635742188
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6927108927108927
+=>Test accuracy:  0.6666666666666666
+=>Fit Time:  0.01146245002746582
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6792792792792792
+=>Test accuracy:  0.8095238095238095
+=>Fit Time:  0.0100860595703125
+
+Summary:
+	Average train Accuracy:  0.6980216909040438
+	Average test Accuracy:  0.7190476190476189
+	Average training time:  0.012116098403930664
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: linear
+          	class_weight: unbalanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6198696022225434
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.2987384796142578
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6380738855738856
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.11708855628967285
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6123970398970399
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.47821760177612305
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6919978802331743
+=>Test accuracy:  0.5476190476190477
+=>Fit Time:  0.09059596061706543
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6443464855229561
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.4972102642059326
+
+Summary:
+	Average train Accuracy:  0.6413369786899199
+	Average test Accuracy:  0.661904761904762
+	Average training time:  0.2963701725006104
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: sigmoid
+          	class_weight: unbalanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.51827495945143
+=>Test accuracy:  0.5238095238095238
+=>Fit Time:  0.010067224502563477
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5439243301743302
+=>Test accuracy:  0.5238095238095238
+=>Fit Time:  0.016702651977539062
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.4983065208065208
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.012130975723266602
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.540251481427952
+=>Test accuracy:  0.47619047619047616
+=>Fit Time:  0.018984556198120117
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5876668111962229
+=>Test accuracy:  0.5238095238095238
+=>Fit Time:  0.011960029602050781
+
+Summary:
+	Average train Accuracy:  0.5376848206112911
+	Average test Accuracy:  0.5333333333333333
+	Average training time:  0.013969087600708007
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: poly
+          	class_weight: unbalanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6818295233736411
+=>Test accuracy:  0.6666666666666666
+=>Fit Time:  0.13146162033081055
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.7108165145665145
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.22824788093566895
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.707720398970399
+=>Test accuracy:  0.7142857142857143
+=>Fit Time:  0.3351755142211914
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.001}
+=>Training accuracy:  0.6979380449968685
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.05647110939025879
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6609192079780315
+=>Test accuracy:  0.7619047619047619
+=>Fit Time:  0.3695971965789795
+
+Summary:
+	Average train Accuracy:  0.6918447379770909
+	Average test Accuracy:  0.6857142857142857
+	Average training time:  0.22419066429138185
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: rbf
+          	class_weight: balanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6592832136949784
+=>Test accuracy:  0.7619047619047619
+=>Fit Time:  0.02709674835205078
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.7144253831753831
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.025255441665649414
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6672753110253111
+=>Test accuracy:  0.7619047619047619
+=>Fit Time:  0.017726898193359375
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6750638338873634
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.018865108489990234
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6400105988341283
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.02400517463684082
+
+Summary:
+	Average train Accuracy:  0.6712116681234328
+	Average test Accuracy:  0.6857142857142857
+	Average training time:  0.022589874267578126
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: linear
+          	class_weight: balanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6078045960398901
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.09810185432434082
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5866899204399204
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.3625507354736328
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5082609395109395
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.15191411972045898
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6281880811292576
+=>Test accuracy:  0.40476190476190477
+=>Fit Time:  0.06313467025756836
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5611600905718552
+=>Test accuracy:  0.38095238095238093
+=>Fit Time:  0.4116544723510742
+
+Summary:
+	Average train Accuracy:  0.5784207255383726
+	Average test Accuracy:  0.5380952380952382
+	Average training time:  0.21747117042541503
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: sigmoid
+          	class_weight: balanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.4079559506030094
+=>Test accuracy:  0.40476190476190477
+=>Fit Time:  0.01711726188659668
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.4197531297531298
+=>Test accuracy:  0.5238095238095238
+=>Fit Time:  0.01874566078186035
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.4968323680823681
+=>Test accuracy:  0.35714285714285715
+=>Fit Time:  0.031159162521362305
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.4814279520161874
+=>Test accuracy:  0.4523809523809524
+=>Fit Time:  0.016923904418945312
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.4923013923013923
+=>Test accuracy:  0.40476190476190477
+=>Fit Time:  0.018072843551635742
+
+Summary:
+	Average train Accuracy:  0.45965415855121733
+	Average test Accuracy:  0.42857142857142855
+	Average training time:  0.02040376663208008
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: poly
+          	class_weight: balanced
+          	classifier type: ovr
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.001}
+=>Training accuracy:  0.6286002914679385
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.0563662052154541
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6458561483561484
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.0707540512084961
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6376238738738739
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.4046967029571533
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6463698993110758
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.07159018516540527
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6206966324613383
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.1071462631225586
+
+Summary:
+	Average train Accuracy:  0.635829369094075
+	Average test Accuracy:  0.6571428571428571
+	Average training time:  0.14211068153381348
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: rbf
+          	class_weight: unbalanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.728780652310064
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.022509336471557617
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.7340199777699778
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.010544538497924805
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.7191489703989704
+=>Test accuracy:  0.7619047619047619
+=>Fit Time:  0.01311802864074707
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.710001445295563
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.015403985977172852
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6678132678132678
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.017743349075317383
+
+Summary:
+	Average train Accuracy:  0.7119528627175685
+	Average test Accuracy:  0.7142857142857142
+	Average training time:  0.015863847732543946
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: linear
+          	class_weight: unbalanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6276978850508262
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.025853395462036133
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6450115537615537
+=>Test accuracy:  0.5714285714285714
+=>Fit Time:  0.05895400047302246
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.630002145002145
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.04269814491271973
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6797562268150503
+=>Test accuracy:  0.5476190476190477
+=>Fit Time:  0.09642648696899414
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6342486871898637
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.016707897186279297
+
+Summary:
+	Average train Accuracy:  0.6433432995638878
+	Average test Accuracy:  0.6142857142857143
+	Average training time:  0.04812798500061035
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: sigmoid
+          	class_weight: unbalanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5110429614106085
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.015326499938964844
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5022810635310636
+=>Test accuracy:  0.5238095238095238
+=>Fit Time:  0.019358158111572266
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5198428785928786
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.014492511749267578
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5284867755455991
+=>Test accuracy:  0.47619047619047616
+=>Fit Time:  0.020729541778564453
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5100062629474393
+=>Test accuracy:  0.5
+=>Fit Time:  0.022289514541625977
+
+Summary:
+	Average train Accuracy:  0.514331988405518
+	Average test Accuracy:  0.5523809523809524
+	Average training time:  0.018439245223999024
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: poly
+          	class_weight: unbalanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6821282177899824
+=>Test accuracy:  0.5714285714285714
+=>Fit Time:  0.15087127685546875
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.7108611208611209
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.30287885665893555
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6972951522951523
+=>Test accuracy:  0.7857142857142857
+=>Fit Time:  0.2330913543701172
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.7146312087488559
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.0536799430847168
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6471455412631884
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.1372523307800293
+
+Summary:
+	Average train Accuracy:  0.69041224819166
+	Average test Accuracy:  0.6666666666666666
+	Average training time:  0.17555475234985352
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: rbf
+          	class_weight: balanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6527064163093576
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.02181386947631836
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6858985608985609
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.029336214065551758
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.6665213427713428
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.027931690216064453
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6637760755407814
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.021118879318237305
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.1}
+=>Training accuracy:  0.627889386712916
+=>Test accuracy:  0.6904761904761905
+=>Fit Time:  0.020972251892089844
+
+Summary:
+	Average train Accuracy:  0.6593583564465918
+	Average test Accuracy:  0.6761904761904762
+	Average training time:  0.024234580993652343
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: linear
+          	class_weight: balanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6090279785132726
+=>Test accuracy:  0.6428571428571429
+=>Fit Time:  0.019452333450317383
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5751044226044226
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.03437161445617676
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5535194122694123
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.043859004974365234
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.6279471985354338
+=>Test accuracy:  0.5476190476190477
+=>Fit Time:  0.027942657470703125
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.5996097701980054
+=>Test accuracy:  0.5714285714285714
+=>Fit Time:  0.025391101837158203
+
+Summary:
+	Average train Accuracy:  0.5930417564241093
+	Average test Accuracy:  0.5952380952380952
+	Average training time:  0.03020334243774414
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: sigmoid
+          	class_weight: balanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.31355235583176755
+=>Test accuracy:  0.5238095238095238
+=>Fit Time:  0.02918553352355957
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.47747045747045747
+=>Test accuracy:  0.35714285714285715
+=>Fit Time:  0.025930404663085938
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.3674045474045474
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.020938634872436523
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.4632461338343691
+=>Test accuracy:  0.5238095238095238
+=>Fit Time:  0.02131342887878418
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1000, 'estimator__gamma': 0.0001}
+=>Training accuracy:  0.45992677169147755
+=>Test accuracy:  0.42857142857142855
+=>Fit Time:  0.020583391189575195
+
+Summary:
+	Average train Accuracy:  0.4163200532465239
+	Average test Accuracy:  0.48571428571428565
+	Average training time:  0.023590278625488282
+Completed!
+
+========================================================================================================
+========================================================================================================
+Training begins with Parameters:
+          	kernel: poly
+          	class_weight: balanced
+          	classifier type: ovo
+
+******Iteration 1 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6344169035345506
+=>Test accuracy:  0.7380952380952381
+=>Fit Time:  0.09347653388977051
+
+******Iteration 2 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6760022522522522
+=>Test accuracy:  0.5952380952380952
+=>Fit Time:  0.26357293128967285
+
+******Iteration 3 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 10, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6371873659373659
+=>Test accuracy:  0.7142857142857143
+=>Fit Time:  0.08161497116088867
+
+******Iteration 4 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 1, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6635978224213519
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.03325343132019043
+
+******Iteration 5 of 5-fold cross-validation******
+=>Best params:  {'estimator__C': 100, 'estimator__gamma': 0.01}
+=>Training accuracy:  0.6347256347256347
+=>Test accuracy:  0.6190476190476191
+=>Fit Time:  0.26973938941955566
+
+Summary:
+	Average train Accuracy:  0.6491859957742311
+	Average test Accuracy:  0.6571428571428573
+	Average training time:  0.14833145141601561
+Completed!
+
+Process finished with exit code 0
