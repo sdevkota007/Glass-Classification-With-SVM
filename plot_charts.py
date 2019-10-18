@@ -152,16 +152,6 @@ def generateBestParamTable():
         i=i+offset
 
 
-
-    # clust_data = test_accuracy_array[5:10]
-    # collabel = kernels
-    # plt.subplot()
-    # plt.axis('tight')
-    # plt.axis('off')
-    # plt.table(cellText=clust_data, colLabels=collabel, loc='center')
-
-
-
     plt.show()
 
 result_file = "results/run5.txt"
