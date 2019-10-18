@@ -13,7 +13,7 @@ ovR-balanced means OneVsRest classifier with unbalanced class weight
 
 ###Training Time: 
  
-![html dark](https://github.com/sdevkota007/KNN-And-NaiveBayes-Classifier/blob/master/screenshots/training-time.png)
+![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/training-time.png)
 
 ###Accuracy table for 5 fold cross validation:
 
