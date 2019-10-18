@@ -17,7 +17,14 @@ ovR-balanced means OneVsRest classifier with unbalanced class weight
 
 ### Accuracy table for 5 fold cross validation:
 
+ovr-unbalanced \
 ![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy1.png) \
+
+ovr-balanced \
 ![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy2.png) \
+
+ovo-unbalanced \
 ![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy3.png) \
+
+ovo-balanced \
 ![html dark](https://github.com/sdevkota007/Glass-Classification-With-SVM/blob/master/screenshots/accuracy4.png)
