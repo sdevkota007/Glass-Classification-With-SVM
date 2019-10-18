@@ -1,8 +1,8 @@
 # Glass-Classification-With-SVM
 This repository contains implementation of SVM for classification of glass. The dataset can be found here
-https://archive.ics.uci.edu/ml/datasets/glass+identification\
+https://archive.ics.uci.edu/ml/datasets/glass+identification \
 To achieve the best classification accuracy, four different types of kernels were tested: RBF, linear, polynomial and sigmoid.
-In addition of accuracy, the training time of two different classifier type: OneVsOne and OneVsAll classifiers is also compared. \
+In addition to accuracy, the training time was also compared for two different classifier type: OneVsOne and OneVsAll classifiers \
 Here, \
 ovo-balanced means OneVsOne classifier with balanced class weight \
 ovr-balanced means OneVsRest classifier with balanced class weight \
